@@ -1,0 +1,34 @@
+{
+  "name": "@sushiswap/kitchen",
+  "version": "0.0.0",
+  "description": "Kitchen contract for sushi swap",
+  "private": true,
+  "publishConfig": {
+    "access": "private"
+  },
+  "files": [
+    "/contracts/**/*.sol",
+    "/build/contracts/*.json",
+    "!/contracts/mocks/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sushiswap Contributors",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@boringcrypto/boring-solidity": "git+https://github.com/boringcrypto/BoringSolidity#e06e943",
+    "@openzeppelin/contracts": "4.0.0",
+    "@openzeppelin/contracts-upgradeable": "4.0.0",
+    "@uniswap/v2-core": "git+https://github.com/uniswap/uniswap-v2-core.git#27f6354bae6685612c182c3bc7577e61bc8717e3",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.0.7",
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-dev.21",
+    "ts-generator": "^0.1.1",
+    "ts-node": "^9.1.1",
+    "typechain": "^4.0.2",
+    "typescript": "^4.2.2"
+  }
+}

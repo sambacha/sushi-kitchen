@@ -1,0 +1,9 @@
+cache
+dist/
+build
+.cache/
+.DS_Store
+node_modules
+cache/
+out/
+output/
