@@ -23,12 +23,17 @@
     "@openzeppelin/contracts-upgradeable": "4.0.0",
     "@uniswap/v2-core": "git+https://github.com/uniswap/uniswap-v2-core.git#27f6354bae6685612c182c3bc7577e61bc8717e3",
     "ethers": "^5.4.7",
-    "hardhat": "^2.0.7",
+    "hardhat": "^2.8.4",
     "prettier": "^2.5.1",
     "prettier-plugin-solidity": "^1.0.0-dev.21",
     "ts-generator": "^0.1.1",
     "ts-node": "^9.1.1",
     "typechain": "^4.0.2",
-    "typescript": "^4.2.2"
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@sushiswap/hardhat-config": "^0.1.0",
+    "@typechain/hardhat": "^4.0.0",
+    "@types/node": "^14"
   }
 }
